@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans:400,500,700">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>TO-DO List</title>
+</head>
+<body>
+<div class="heading_container">
+<h1 class="heading">My To-Do List</h1>
+</div>
+
+<div class="container">
+
+    <h2 class="secondary_heading">Add Item</h2>
+    <div class="input__container">
+        <input id="myInput" class="input" type="text" placeholder="What you want to do ?">
+        <button id="addBtn" class="add__btn" onclick="additem()">Add To List</button>
+    </div>
+    <h2 class="secondary_heading">TO DO</h2>
+    <div class="display__area">
+        <ol class="list">
+
+        </ol>
+    </div>
+</div>
+
+<script src="app.js"></script>
+
+
+</body>
+</html>
